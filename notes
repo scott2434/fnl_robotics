@@ -1,0 +1,16 @@
+uninstall dashing
+
+update ros2 to humble 
+https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html
+
+check for pybullet
+
+-or install with
+pip3 install pybullet --user --upgrade
+
+check for gym
+https://github.com/openai/gym
+pip install gym
+
+install onshape to robot
+https://onshape-to-robot.readthedocs.io/en/latest/
