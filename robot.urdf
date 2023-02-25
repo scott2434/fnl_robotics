@@ -1,0 +1,30 @@
+<?xml vesion="1,0?>
+<robot name="onshape">
+<link name="part_1">
+<visual>
+<origin xyz="0 0 0" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package:///part_1.stl"/>
+</geometry>
+<material name="part_1_material">
+<color rgba="0.615686 0.811765 0.929412 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0 0 0" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package:///part_1.stl"/>
+</geometry>
+<material name="part_1_material">
+<color rgba="0.615686 0.811765 0.929412 1.0"/>
+</material>
+</collision>
+<inertial>
+<origin xyz="-0.00795695 0.0297547 0.0428155" rpy="0 0 0"/>
+<mass value="21.5023" />
+<inertia ixx="3.3459" ixy="0.0587388"  ixz="0.000714233" iyy="3.35643" iyz="-0.00267084" izz="6.66913" />
+</inertial>
+</link>
+
+
+</robot>
