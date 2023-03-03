@@ -1,0 +1,47 @@
+<robot name="onshape">
+	<link name="part_1">
+		<visual>
+			<origin xyz="0 0 0" rpy="0 -0 0" />
+			<geometry>
+				<mesh filename="package:///part_1.stl"/>
+			</geometry>
+			<material name="part_1_material">
+				<color rgba="0.615686 0.811765 0.929412 1.0"/>
+			</material>
+		</visual>
+		<collision>
+			<origin xyz="0 0 0" rpy="0 -0 0" />
+				<geometry>
+					<mesh filename="package:///part_1.stl"/>
+				</geometry>
+				<material name="part_1_material">
+					<color rgba="0.615686 0.811765 0.929412 1.0"/>
+				</material>
+		</collision>
+		<visual>
+			<origin xyz="-0.0188749 -0.0342459 -0.0350227" rpy="0 -0 0" />
+			<geometry>
+				<mesh filename="package:///part_1.stl"/>
+			</geometry>
+			<material name="part_1_material">
+				<color rgba="0.615686 0.811765 0.929412 1.0"/>
+			</material>			
+		</visual>
+		<collision>
+			<origin xyz="-0.0188749 -0.0342459 -0.0350227" rpy="0 -0 0" />
+			<geometry>
+				<mesh filename="package:///part_1.stl"/>
+			</geometry>
+			<material name="part_1_material">
+				<color rgba="0.615686 0.811765 0.929412 1.0"/>
+			</material>
+		</collision>
+		<inertial>
+			<origin xyz="0.0300286 0.0291352 0.03175" rpy="0 0 0"/>
+			<mass value="1.74444" />
+			<inertia ixx="0.00107976" ixy="0"  ixz="0" iyy="0.0011105" iyz="0" izz="0.00101792" />
+		</inertial>
+	</link>
+
+
+</robot>
