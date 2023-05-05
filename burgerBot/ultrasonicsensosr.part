@@ -1,0 +1,13 @@
+{
+    "configuration": "default",
+    "documentId": "45344de327ecb1ec0aed9ddd",
+    "documentMicroversion": "8a237f70310dd1e1bb821f88",
+    "elementId": "d3a9e49c66a8f9d70bb2fbd7",
+    "fullConfiguration": "default",
+    "id": "Mzes5xHA5mEVg22sh",
+    "isStandardContent": false,
+    "name": "ultrasonicSensosr <1>",
+    "partId": "JHD",
+    "suppressed": false,
+    "type": "Part"
+}

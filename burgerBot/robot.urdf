@@ -1,0 +1,351 @@
+<robot name="onshape">
+<link name="assembly_2">
+<visual>
+<origin xyz="0.0669173 -0.0752449 0.0277527" rpy="0.219502 0.760562 2.16232" />
+<geometry>
+<mesh filename="package:///mypy.stl"/>
+</geometry>
+<material name="mypy_material">
+<color rgba="0.439216 0.47451 0.501961 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.0669173 -0.0752449 0.0277527" rpy="0.219502 0.760562 2.16232" />
+<geometry>
+<mesh filename="package:///mypy.stl"/>
+</geometry>
+<material name="mypy_material">
+<color rgba="0.439216 0.47451 0.501961 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.0508982 -0.0695634 -0.0420434" rpy="-2.3689 -0.158406 -2.70266" />
+<geometry>
+<mesh filename="package:///.75ballsocket.stl"/>
+</geometry>
+<material name=".75ballsocket_material">
+<color rgba="0.615686 0.811765 0.929412 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.0508982 -0.0695634 -0.0420434" rpy="-2.3689 -0.158406 -2.70266" />
+<geometry>
+<mesh filename="package:///.75ballsocket.stl"/>
+</geometry>
+<material name=".75ballsocket_material">
+<color rgba="0.615686 0.811765 0.929412 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.0320056 -0.0963287 0.0313553" rpy="2.3689 0.158406 0.438935" />
+<geometry>
+<mesh filename="package:///ttbracket.stl"/>
+</geometry>
+<material name="ttbracket_material">
+<color rgba="0.615686 0.811765 0.929412 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.0320056 -0.0963287 0.0313553" rpy="2.3689 0.158406 0.438935" />
+<geometry>
+<mesh filename="package:///ttbracket.stl"/>
+</geometry>
+<material name="ttbracket_material">
+<color rgba="0.615686 0.811765 0.929412 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.0375276 -0.119185 0.00817987" rpy="0.772696 -0.158406 -2.70266" />
+<geometry>
+<mesh filename="package:///ttbracket.stl"/>
+</geometry>
+<material name="ttbracket_material">
+<color rgba="0.615686 0.811765 0.929412 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.0375276 -0.119185 0.00817987" rpy="0.772696 -0.158406 -2.70266" />
+<geometry>
+<mesh filename="package:///ttbracket.stl"/>
+</geometry>
+<material name="ttbracket_material">
+<color rgba="0.615686 0.811765 0.929412 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.0658695 -0.0756373 0.0207705" rpy="0.219502 0.760562 2.16232" />
+<geometry>
+<mesh filename="package:///base_plate.stl"/>
+</geometry>
+<material name="base_plate_material">
+<color rgba="0.615686 0.811765 0.929412 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.0658695 -0.0756373 0.0207705" rpy="0.219502 0.760562 2.16232" />
+<geometry>
+<mesh filename="package:///base_plate.stl"/>
+</geometry>
+<material name="base_plate_material">
+<color rgba="0.615686 0.811765 0.929412 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.0687195 -0.0234309 -0.000432398" rpy="0.735897 0.304786 3.10013" />
+<geometry>
+<mesh filename="package:///ultrasonicsensosr.stl"/>
+</geometry>
+<material name="ultrasonicsensosr_material">
+<color rgba="0.615686 0.811765 0.929412 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.0687195 -0.0234309 -0.000432398" rpy="0.735897 0.304786 3.10013" />
+<geometry>
+<mesh filename="package:///ultrasonicsensosr.stl"/>
+</geometry>
+<material name="ultrasonicsensosr_material">
+<color rgba="0.615686 0.811765 0.929412 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.111939 -0.0842504 -0.0049517" rpy="-0.772696 0.158406 0.438935" />
+<geometry>
+<mesh filename="package:///ttbracket.stl"/>
+</geometry>
+<material name="ttbracket_material">
+<color rgba="0.615686 0.811765 0.929412 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.111939 -0.0842504 -0.0049517" rpy="-0.772696 0.158406 0.438935" />
+<geometry>
+<mesh filename="package:///ttbracket.stl"/>
+</geometry>
+<material name="ttbracket_material">
+<color rgba="0.615686 0.811765 0.929412 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.104629 -0.0622335 0.0185392" rpy="-2.3689 -0.158406 -2.70266" />
+<geometry>
+<mesh filename="package:///ttbracket.stl"/>
+</geometry>
+<material name="ttbracket_material">
+<color rgba="0.615686 0.811765 0.929412 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.104629 -0.0622335 0.0185392" rpy="-2.3689 -0.158406 -2.70266" />
+<geometry>
+<mesh filename="package:///ttbracket.stl"/>
+</geometry>
+<material name="ttbracket_material">
+<color rgba="0.615686 0.811765 0.929412 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.0723636 -0.101893 -0.00594032" rpy="0.219502 0.760562 2.16232" />
+<geometry>
+<mesh filename="package:///base_plate.stl"/>
+</geometry>
+<material name="base_plate_material">
+<color rgba="0.615686 0.811765 0.929412 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.0723636 -0.101893 -0.00594032" rpy="0.219502 0.760562 2.16232" />
+<geometry>
+<mesh filename="package:///base_plate.stl"/>
+</geometry>
+<material name="base_plate_material">
+<color rgba="0.615686 0.811765 0.929412 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.0427862 -0.119656 0.0335559" rpy="-2.92209 0.760562 2.16232" />
+<geometry>
+<mesh filename="package:///tt_motor.stl"/>
+</geometry>
+<material name="tt_motor_material">
+<color rgba="0.972549 0.529412 0.00392157 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.0427862 -0.119656 0.0335559" rpy="-2.92209 0.760562 2.16232" />
+<geometry>
+<mesh filename="package:///tt_motor.stl"/>
+</geometry>
+<material name="tt_motor_material">
+<color rgba="0.972549 0.529412 0.00392157 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.052284 -0.0744097 -0.0470834" rpy="-1.79576 0.785341 -1.29227" />
+<geometry>
+<mesh filename="package:///.75ball.stl"/>
+</geometry>
+<material name=".75ball_material">
+<color rgba="0.615686 0.811765 0.929412 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.052284 -0.0744097 -0.0470834" rpy="-1.79576 0.785341 -1.29227" />
+<geometry>
+<mesh filename="package:///.75ball.stl"/>
+</geometry>
+<material name=".75ball_material">
+<color rgba="0.615686 0.811765 0.929412 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.116303 -0.085141 0.0205821" rpy="0.219502 0.760562 2.16232" />
+<geometry>
+<mesh filename="package:///tt_motor.stl"/>
+</geometry>
+<material name="tt_motor_material">
+<color rgba="0.972549 0.529412 0.00392157 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.116303 -0.085141 0.0205821" rpy="0.219502 0.760562 2.16232" />
+<geometry>
+<mesh filename="package:///tt_motor.stl"/>
+</geometry>
+<material name="tt_motor_material">
+<color rgba="0.972549 0.529412 0.00392157 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.0191611 -0.046565 0.00818591" rpy="0.60812 -0.532549 -2.23291" />
+<geometry>
+<mesh filename="package:///ultrasonicsensosr.stl"/>
+</geometry>
+<material name="ultrasonicsensosr_material">
+<color rgba="0.615686 0.811765 0.929412 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.0191611 -0.046565 0.00818591" rpy="0.60812 -0.532549 -2.23291" />
+<geometry>
+<mesh filename="package:///ultrasonicsensosr.stl"/>
+</geometry>
+<material name="ultrasonicsensosr_material">
+<color rgba="0.615686 0.811765 0.929412 1.0"/>
+</material>
+</collision>
+<inertial>
+<origin xyz="0.0672057 -0.080953 0.0136183" rpy="0 0 0"/>
+<mass value="75.7702" />
+<inertia ixx="0.0922672" ixy="-0.0172189"  ixz="0.00620848" iyy="0.129174" iyz="0.0267459" izz="0.189489" />
+</inertial>
+</link>
+
+<link name="mywheel_r">
+<visual>
+<origin xyz="-1.38778e-17 1.38778e-17 0.00575" rpy="-1.5708 -1.03603e-16 1.5708" />
+<geometry>
+<mesh filename="package:///tire.stl"/>
+</geometry>
+<material name="tire_material">
+<color rgba="0.917647 0.917647 0.917647 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-1.38778e-17 1.38778e-17 0.00575" rpy="-1.5708 -1.03603e-16 1.5708" />
+<geometry>
+<mesh filename="package:///tire.stl"/>
+</geometry>
+<material name="tire_material">
+<color rgba="0.917647 0.917647 0.917647 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0 0 0.01325" rpy="3.14159 -2.76533e-17 7.33445e-17" />
+<geometry>
+<mesh filename="package:///hub.stl"/>
+</geometry>
+<material name="hub_material">
+<color rgba="0.262745 0.282353 0.301961 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0 0 0.01325" rpy="3.14159 -2.76533e-17 7.33445e-17" />
+<geometry>
+<mesh filename="package:///hub.stl"/>
+</geometry>
+<material name="hub_material">
+<color rgba="0.262745 0.282353 0.301961 1.0"/>
+</material>
+</collision>
+<inertial>
+<origin xyz="-5.23256e-18 9.59686e-19 0.00630267" rpy="0 0 0"/>
+<mass value="0.0244822" />
+<inertia ixx="8.15331e-06" ixy="1.43169e-12"  ixz="-6.91517e-21" iyy="8.15296e-06" iyz="-2.14064e-20" izz="1.50899e-05" />
+</inertial>
+</link>
+
+<joint name="RmotorWheel" type="revolute">
+<origin xyz="0.0265624 -0.127273 0.036419" rpy="-1.35129 0.760562 2.16232" />
+<parent link="assembly_2" />
+<child link="mywheel_r" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" />
+<joint_properties friction="0.0"/>
+</joint>
+
+<link name="mywheel_l">
+<visual>
+<origin xyz="-1.38778e-17 1.38778e-17 -0.0075" rpy="1.5708 -1.43578e-15 5.95815e-17" />
+<geometry>
+<mesh filename="package:///tire.stl"/>
+</geometry>
+<material name="tire_material">
+<color rgba="0.917647 0.917647 0.917647 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-1.38778e-17 1.38778e-17 -0.0075" rpy="1.5708 -1.43578e-15 5.95815e-17" />
+<geometry>
+<mesh filename="package:///tire.stl"/>
+</geometry>
+<material name="tire_material">
+<color rgba="0.917647 0.917647 0.917647 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="-1.38778e-17 -1.38778e-17 -0.015" rpy="4.39182e-17 -2.09985e-18 -5.08689e-17" />
+<geometry>
+<mesh filename="package:///hub.stl"/>
+</geometry>
+<material name="hub_material">
+<color rgba="0.262745 0.282353 0.301961 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-1.38778e-17 -1.38778e-17 -0.015" rpy="4.39182e-17 -2.09985e-18 -5.08689e-17" />
+<geometry>
+<mesh filename="package:///hub.stl"/>
+</geometry>
+<material name="hub_material">
+<color rgba="0.262745 0.282353 0.301961 1.0"/>
+</material>
+</collision>
+<inertial>
+<origin xyz="-1.35837e-17 1.54268e-18 -0.00805267" rpy="0 0 0"/>
+<mass value="0.0244822" />
+<inertia ixx="8.15331e-06" ixy="-1.43169e-12"  ixz="7.7011e-21" iyy="8.15296e-06" iyz="-7.56785e-21" izz="1.50899e-05" />
+</inertial>
+</link>
+
+<joint name="LmotorWheel" type="revolute">
+<origin xyz="0.132527 -0.0775242 0.0177191" rpy="1.34583 0.785341 -1.29227" />
+<parent link="assembly_2" />
+<child link="mywheel_l" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" />
+<joint_properties friction="0.0"/>
+</joint>
+
+
+</robot>
